@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom"
 
 export const NavBar:React.FC<{}> = () => {
 
-  const [user,loading,errors] = useAuthState(auth);
+  const [user] = useAuthState(auth);
 
   const navigate = useNavigate();
     

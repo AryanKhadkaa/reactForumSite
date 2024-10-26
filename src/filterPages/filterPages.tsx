@@ -2,7 +2,7 @@
 import { useNavigate } from 'react-router-dom'
 import { Post as Ipost } from '../homePage/home';
 
-export const FilterPages:React.FC<{zaps:Ipost[]}> = ({zaps}) => {
+export const FilterPages:React.FC<{zaps:Ipost[]}> = () => {
   
    const navigate = useNavigate();
   
